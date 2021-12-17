@@ -23,3 +23,4 @@ group = "0.11"
 halo2_gadgets = { version = "0.0", path = "../halo2_gadgets" }
 halo2_proofs = { version = "0.1.0-beta.1", path = "../halo2_proofs" }
 pasta_curves = "0.3"
+subtle = "2.3"

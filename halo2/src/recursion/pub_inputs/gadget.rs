@@ -5,6 +5,8 @@ use halo2_proofs::{
 };
 use pasta_curves::arithmetic::CurveAffine;
 
+mod chip;
+
 /// Instructions to map bitstring public inputs to and from endoscalars.
 ///
 /// TODO: Replace N = 2^K once we have const evaluable.
